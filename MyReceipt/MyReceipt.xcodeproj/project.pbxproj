@@ -8,12 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		B98D605B2C134B3A00E26135 /* MyReceiptApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98D605A2C134B3A00E26135 /* MyReceiptApp.swift */; };
-		B98D605D2C134B3A00E26135 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98D605C2C134B3A00E26135 /* ContentView.swift */; };
 		B98D605F2C134B3D00E26135 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B98D605E2C134B3D00E26135 /* Assets.xcassets */; };
 		B98D60622C134B3D00E26135 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B98D60612C134B3D00E26135 /* Preview Assets.xcassets */; };
 		B98D606C2C134B3D00E26135 /* MyReceiptTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98D606B2C134B3D00E26135 /* MyReceiptTests.swift */; };
 		B98D60762C134B3D00E26135 /* MyReceiptUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98D60752C134B3D00E26135 /* MyReceiptUITests.swift */; };
 		B98D60782C134B3D00E26135 /* MyReceiptUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98D60772C134B3D00E26135 /* MyReceiptUITestsLaunchTests.swift */; };
+		B98D60872C172ED300E26135 /* ApiEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98D60862C172ED300E26135 /* ApiEndpoint.swift */; };
+		B98D60892C172EFD00E26135 /* URLSessionAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98D60882C172EFD00E26135 /* URLSessionAPIClient.swift */; };
+		B98D608B2C172F5A00E26135 /* ReceiptEndpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98D608A2C172F5A00E26135 /* ReceiptEndpoints.swift */; };
+		B98D608D2C17348C00E26135 /* ReceiptService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98D608C2C17348C00E26135 /* ReceiptService.swift */; };
+		B98D608F2C175D4000E26135 /* ReceiptsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98D608E2C175D4000E26135 /* ReceiptsList.swift */; };
+		B98D60912C17636200E26135 /* ReceiptsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98D60902C17636200E26135 /* ReceiptsViewModel.swift */; };
+		B98D60932C17ABB500E26135 /* ReceiptCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98D60922C17ABB500E26135 /* ReceiptCellView.swift */; };
+		B98D60972C17ADC100E26135 /* RecipeDescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98D60962C17ADC100E26135 /* RecipeDescriptionView.swift */; };
+		B98D60992C17ADD500E26135 /* RecipeDescriptionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98D60982C17ADD500E26135 /* RecipeDescriptionViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +44,6 @@
 /* Begin PBXFileReference section */
 		B98D60572C134B3A00E26135 /* MyReceipt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyReceipt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B98D605A2C134B3A00E26135 /* MyReceiptApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyReceiptApp.swift; sourceTree = "<group>"; };
-		B98D605C2C134B3A00E26135 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B98D605E2C134B3D00E26135 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B98D60612C134B3D00E26135 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B98D60672C134B3D00E26135 /* MyReceiptTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyReceiptTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +51,15 @@
 		B98D60712C134B3D00E26135 /* MyReceiptUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyReceiptUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B98D60752C134B3D00E26135 /* MyReceiptUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyReceiptUITests.swift; sourceTree = "<group>"; };
 		B98D60772C134B3D00E26135 /* MyReceiptUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyReceiptUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B98D60862C172ED300E26135 /* ApiEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiEndpoint.swift; sourceTree = "<group>"; };
+		B98D60882C172EFD00E26135 /* URLSessionAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionAPIClient.swift; sourceTree = "<group>"; };
+		B98D608A2C172F5A00E26135 /* ReceiptEndpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptEndpoints.swift; sourceTree = "<group>"; };
+		B98D608C2C17348C00E26135 /* ReceiptService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptService.swift; sourceTree = "<group>"; };
+		B98D608E2C175D4000E26135 /* ReceiptsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptsList.swift; sourceTree = "<group>"; };
+		B98D60902C17636200E26135 /* ReceiptsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptsViewModel.swift; sourceTree = "<group>"; };
+		B98D60922C17ABB500E26135 /* ReceiptCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptCellView.swift; sourceTree = "<group>"; };
+		B98D60962C17ADC100E26135 /* RecipeDescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDescriptionView.swift; sourceTree = "<group>"; };
+		B98D60982C17ADD500E26135 /* RecipeDescriptionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDescriptionViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +110,10 @@
 		B98D60592C134B3A00E26135 /* MyReceipt */ = {
 			isa = PBXGroup;
 			children = (
+				B98D60852C172EB100E26135 /* Network */,
 				B98D605A2C134B3A00E26135 /* MyReceiptApp.swift */,
-				B98D605C2C134B3A00E26135 /* ContentView.swift */,
+				B98D60952C17ADA600E26135 /* RecipeDescription */,
+				B98D60942C17AD1600E26135 /* ReceiptList */,
 				B98D605E2C134B3D00E26135 /* Assets.xcassets */,
 				B98D60602C134B3D00E26135 /* Preview Content */,
 			);
@@ -125,6 +143,36 @@
 				B98D60772C134B3D00E26135 /* MyReceiptUITestsLaunchTests.swift */,
 			);
 			path = MyReceiptUITests;
+			sourceTree = "<group>";
+		};
+		B98D60852C172EB100E26135 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				B98D60862C172ED300E26135 /* ApiEndpoint.swift */,
+				B98D60882C172EFD00E26135 /* URLSessionAPIClient.swift */,
+				B98D608A2C172F5A00E26135 /* ReceiptEndpoints.swift */,
+				B98D608C2C17348C00E26135 /* ReceiptService.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		B98D60942C17AD1600E26135 /* ReceiptList */ = {
+			isa = PBXGroup;
+			children = (
+				B98D60902C17636200E26135 /* ReceiptsViewModel.swift */,
+				B98D60922C17ABB500E26135 /* ReceiptCellView.swift */,
+				B98D608E2C175D4000E26135 /* ReceiptsList.swift */,
+			);
+			path = ReceiptList;
+			sourceTree = "<group>";
+		};
+		B98D60952C17ADA600E26135 /* RecipeDescription */ = {
+			isa = PBXGroup;
+			children = (
+				B98D60962C17ADC100E26135 /* RecipeDescriptionView.swift */,
+				B98D60982C17ADD500E26135 /* RecipeDescriptionViewModel.swift */,
+			);
+			path = RecipeDescription;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -280,8 +328,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B98D605D2C134B3A00E26135 /* ContentView.swift in Sources */,
+				B98D60892C172EFD00E26135 /* URLSessionAPIClient.swift in Sources */,
+				B98D608D2C17348C00E26135 /* ReceiptService.swift in Sources */,
+				B98D60992C17ADD500E26135 /* RecipeDescriptionViewModel.swift in Sources */,
+				B98D60972C17ADC100E26135 /* RecipeDescriptionView.swift in Sources */,
+				B98D608B2C172F5A00E26135 /* ReceiptEndpoints.swift in Sources */,
 				B98D605B2C134B3A00E26135 /* MyReceiptApp.swift in Sources */,
+				B98D60912C17636200E26135 /* ReceiptsViewModel.swift in Sources */,
+				B98D60872C172ED300E26135 /* ApiEndpoint.swift in Sources */,
+				B98D60932C17ABB500E26135 /* ReceiptCellView.swift in Sources */,
+				B98D608F2C175D4000E26135 /* ReceiptsList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -11,7 +11,7 @@ import SwiftUI
 struct MyReceiptApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ReceiptsList()
         }
     }
 }
