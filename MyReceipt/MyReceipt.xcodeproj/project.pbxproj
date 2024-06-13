@@ -10,9 +10,6 @@
 		B98D605B2C134B3A00E26135 /* MyReceiptApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98D605A2C134B3A00E26135 /* MyReceiptApp.swift */; };
 		B98D605F2C134B3D00E26135 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B98D605E2C134B3D00E26135 /* Assets.xcassets */; };
 		B98D60622C134B3D00E26135 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B98D60612C134B3D00E26135 /* Preview Assets.xcassets */; };
-		B98D606C2C134B3D00E26135 /* MyReceiptTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98D606B2C134B3D00E26135 /* MyReceiptTests.swift */; };
-		B98D60762C134B3D00E26135 /* MyReceiptUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98D60752C134B3D00E26135 /* MyReceiptUITests.swift */; };
-		B98D60782C134B3D00E26135 /* MyReceiptUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98D60772C134B3D00E26135 /* MyReceiptUITestsLaunchTests.swift */; };
 		B98D60872C172ED300E26135 /* ApiEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98D60862C172ED300E26135 /* ApiEndpoint.swift */; };
 		B98D60892C172EFD00E26135 /* URLSessionAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98D60882C172EFD00E26135 /* URLSessionAPIClient.swift */; };
 		B98D608B2C172F5A00E26135 /* ReceiptEndpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98D608A2C172F5A00E26135 /* ReceiptEndpoints.swift */; };
@@ -24,33 +21,11 @@
 		B98D60992C17ADD500E26135 /* RecipeDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98D60982C17ADD500E26135 /* RecipeDetailsViewModel.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		B98D60682C134B3D00E26135 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B98D604F2C134B3A00E26135 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B98D60562C134B3A00E26135;
-			remoteInfo = MyReceipt;
-		};
-		B98D60722C134B3D00E26135 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B98D604F2C134B3A00E26135 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B98D60562C134B3A00E26135;
-			remoteInfo = MyReceipt;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		B98D60572C134B3A00E26135 /* MyReceipt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyReceipt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B98D605A2C134B3A00E26135 /* MyReceiptApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyReceiptApp.swift; sourceTree = "<group>"; };
 		B98D605E2C134B3D00E26135 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B98D60612C134B3D00E26135 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		B98D60672C134B3D00E26135 /* MyReceiptTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyReceiptTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B98D606B2C134B3D00E26135 /* MyReceiptTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyReceiptTests.swift; sourceTree = "<group>"; };
-		B98D60712C134B3D00E26135 /* MyReceiptUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyReceiptUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B98D60752C134B3D00E26135 /* MyReceiptUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyReceiptUITests.swift; sourceTree = "<group>"; };
-		B98D60772C134B3D00E26135 /* MyReceiptUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyReceiptUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		B98D60862C172ED300E26135 /* ApiEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiEndpoint.swift; sourceTree = "<group>"; };
 		B98D60882C172EFD00E26135 /* URLSessionAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionAPIClient.swift; sourceTree = "<group>"; };
 		B98D608A2C172F5A00E26135 /* ReceiptEndpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptEndpoints.swift; sourceTree = "<group>"; };
@@ -70,20 +45,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B98D60642C134B3D00E26135 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B98D606E2C134B3D00E26135 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -91,8 +52,6 @@
 			isa = PBXGroup;
 			children = (
 				B98D60592C134B3A00E26135 /* MyReceipt */,
-				B98D606A2C134B3D00E26135 /* MyReceiptTests */,
-				B98D60742C134B3D00E26135 /* MyReceiptUITests */,
 				B98D60582C134B3A00E26135 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -101,8 +60,6 @@
 			isa = PBXGroup;
 			children = (
 				B98D60572C134B3A00E26135 /* MyReceipt.app */,
-				B98D60672C134B3D00E26135 /* MyReceiptTests.xctest */,
-				B98D60712C134B3D00E26135 /* MyReceiptUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -126,23 +83,6 @@
 				B98D60612C134B3D00E26135 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		B98D606A2C134B3D00E26135 /* MyReceiptTests */ = {
-			isa = PBXGroup;
-			children = (
-				B98D606B2C134B3D00E26135 /* MyReceiptTests.swift */,
-			);
-			path = MyReceiptTests;
-			sourceTree = "<group>";
-		};
-		B98D60742C134B3D00E26135 /* MyReceiptUITests */ = {
-			isa = PBXGroup;
-			children = (
-				B98D60752C134B3D00E26135 /* MyReceiptUITests.swift */,
-				B98D60772C134B3D00E26135 /* MyReceiptUITestsLaunchTests.swift */,
-			);
-			path = MyReceiptUITests;
 			sourceTree = "<group>";
 		};
 		B98D60852C172EB100E26135 /* Network */ = {
@@ -196,42 +136,6 @@
 			productReference = B98D60572C134B3A00E26135 /* MyReceipt.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B98D60662C134B3D00E26135 /* MyReceiptTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B98D607E2C134B3D00E26135 /* Build configuration list for PBXNativeTarget "MyReceiptTests" */;
-			buildPhases = (
-				B98D60632C134B3D00E26135 /* Sources */,
-				B98D60642C134B3D00E26135 /* Frameworks */,
-				B98D60652C134B3D00E26135 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B98D60692C134B3D00E26135 /* PBXTargetDependency */,
-			);
-			name = MyReceiptTests;
-			productName = MyReceiptTests;
-			productReference = B98D60672C134B3D00E26135 /* MyReceiptTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		B98D60702C134B3D00E26135 /* MyReceiptUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B98D60812C134B3D00E26135 /* Build configuration list for PBXNativeTarget "MyReceiptUITests" */;
-			buildPhases = (
-				B98D606D2C134B3D00E26135 /* Sources */,
-				B98D606E2C134B3D00E26135 /* Frameworks */,
-				B98D606F2C134B3D00E26135 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B98D60732C134B3D00E26135 /* PBXTargetDependency */,
-			);
-			name = MyReceiptUITests;
-			productName = MyReceiptUITests;
-			productReference = B98D60712C134B3D00E26135 /* MyReceiptUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -244,14 +148,6 @@
 				TargetAttributes = {
 					B98D60562C134B3A00E26135 = {
 						CreatedOnToolsVersion = 15.4;
-					};
-					B98D60662C134B3D00E26135 = {
-						CreatedOnToolsVersion = 15.4;
-						TestTargetID = B98D60562C134B3A00E26135;
-					};
-					B98D60702C134B3D00E26135 = {
-						CreatedOnToolsVersion = 15.4;
-						TestTargetID = B98D60562C134B3A00E26135;
 					};
 				};
 			};
@@ -269,8 +165,6 @@
 			projectRoot = "";
 			targets = (
 				B98D60562C134B3A00E26135 /* MyReceipt */,
-				B98D60662C134B3D00E26135 /* MyReceiptTests */,
-				B98D60702C134B3D00E26135 /* MyReceiptUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -282,20 +176,6 @@
 			files = (
 				B98D60622C134B3D00E26135 /* Preview Assets.xcassets in Resources */,
 				B98D605F2C134B3D00E26135 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B98D60652C134B3D00E26135 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B98D606F2C134B3D00E26135 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,37 +221,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B98D60632C134B3D00E26135 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B98D606C2C134B3D00E26135 /* MyReceiptTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B98D606D2C134B3D00E26135 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B98D60762C134B3D00E26135 /* MyReceiptUITests.swift in Sources */,
-				B98D60782C134B3D00E26135 /* MyReceiptUITestsLaunchTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		B98D60692C134B3D00E26135 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B98D60562C134B3A00E26135 /* MyReceipt */;
-			targetProxy = B98D60682C134B3D00E26135 /* PBXContainerItemProxy */;
-		};
-		B98D60732C134B3D00E26135 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B98D60562C134B3A00E26135 /* MyReceipt */;
-			targetProxy = B98D60722C134B3D00E26135 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		B98D60792C134B3D00E26135 /* Debug */ = {
@@ -553,82 +403,6 @@
 			};
 			name = Release;
 		};
-		B98D607F2C134B3D00E26135 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = RF4Y326UMR;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = test.com.MyReceiptTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyReceipt.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MyReceipt";
-			};
-			name = Debug;
-		};
-		B98D60802C134B3D00E26135 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = RF4Y326UMR;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = test.com.MyReceiptTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyReceipt.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MyReceipt";
-			};
-			name = Release;
-		};
-		B98D60822C134B3D00E26135 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = RF4Y326UMR;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = test.com.MyReceiptUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = MyReceipt;
-			};
-			name = Debug;
-		};
-		B98D60832C134B3D00E26135 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = RF4Y326UMR;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = test.com.MyReceiptUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = MyReceipt;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -646,24 +420,6 @@
 			buildConfigurations = (
 				B98D607C2C134B3D00E26135 /* Debug */,
 				B98D607D2C134B3D00E26135 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B98D607E2C134B3D00E26135 /* Build configuration list for PBXNativeTarget "MyReceiptTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B98D607F2C134B3D00E26135 /* Debug */,
-				B98D60802C134B3D00E26135 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B98D60812C134B3D00E26135 /* Build configuration list for PBXNativeTarget "MyReceiptUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B98D60822C134B3D00E26135 /* Debug */,
-				B98D60832C134B3D00E26135 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
