@@ -11,7 +11,6 @@ import Combine
 enum ViewState {
     case loading
     case success
-    case error
 }
 
 class ReceiptsViewModel: ObservableObject {
@@ -31,6 +30,7 @@ class ReceiptsViewModel: ObservableObject {
                 guard let self else { return }
                 self.viewState = .success
                 self.receipts = response.meals
-            }).store(in: &cancellables)
+            })
+            .store(in: &cancellables)
     }
 }

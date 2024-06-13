@@ -12,8 +12,7 @@ struct ReceiptCellView: View {
     @State var name: String
     var body: some View {
         HStack {
-            Spacer()
-            VStack {
+            HStack {
                 AsyncImage(url: URL(string: url)) { phase in
                     switch phase {
                     case .failure:
@@ -26,17 +25,14 @@ struct ReceiptCellView: View {
                         ProgressView()
                     }
                 }
-                .frame(width: 256, height: 256)
-                .clipShape(.rect(cornerRadius: 25))
-                .padding(EdgeInsets(top: 25, leading: 25, bottom: 0, trailing: 25))
+                .frame(width: 90, height: 90)
+                .clipShape(.rect(cornerRadius: 10))
                 Text(name)
-                    .padding(EdgeInsets(top: 5, leading: 25, bottom: 25, trailing: 25))
+                    .padding(EdgeInsets(top: 0, leading: 16, bottom: 0, trailing: 0))
+                Spacer()
             }
-            Spacer()
         }
         .listRowSeparator(.hidden)
-        .background(Color.brown)
-        .clipShape(.rect(cornerRadius: 25))
     }
 }
 
