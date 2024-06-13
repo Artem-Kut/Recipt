@@ -29,7 +29,7 @@ class ReceiptsViewModel: ObservableObject {
             }, receiveValue: { [weak self] response in
                 guard let self else { return }
                 self.viewState = .success
-                self.receipts = response.meals
+                self.receipts = response.meals.sorted { $0.name < $1.name }
             })
             .store(in: &cancellables)
     }
